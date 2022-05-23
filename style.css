@@ -1,0 +1,88 @@
+body {
+
+    background-color: rgb(245, 227, 239);
+    margin-top: 100px;
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+h2{
+display: flex;
+justify-content: center;
+}
+
+footer{
+
+display: flex;
+justify-content: center;
+
+
+}
+
+
+#triangulo {
+
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid greenyellow;
+    margin: 20px;
+ 
+   
+}
+
+
+
+#cuadrado {
+
+width: 100px;
+height: 100px;
+background-color: red;
+margin: 20px;
+}
+
+#circulo {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #5200FF;
+    margin: 20px;
+}
+
+#circulo:hover{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: lightpink;
+    margin: 20px;
+}
+
+#cuadrado:hover {
+
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+    margin: 20px;
+    }
+
+    #triangulo:hover {
+
+        width: 0;
+        height: 0;
+        border-right: 50px solid transparent;
+        border-left: 50px solid transparent;
+        border-bottom: 100px solid lightskyblue;
+        margin: 20px;
+      
+    }
+
+
